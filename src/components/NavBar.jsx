@@ -20,10 +20,10 @@ export const NavBar = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <NavLink to='/' className="nav-link active" aria-current="page" href="#">Home</NavLink>
+                                <NavLink to='/shopping-cart/' className="nav-link active" aria-current="page" href="#">Home</NavLink>
                             </li>
                         </ul>
-                        <NavLink to='shopping'  >
+                        <NavLink to='/shopping-cart/shopping'  >
                             <Badge badgeContent={listaCompras.length} color="success">
                                 <ShoppingCart color="action" />
                             </Badge>

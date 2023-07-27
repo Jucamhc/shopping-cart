@@ -12,8 +12,8 @@ export const CarApp = () => {
                 <NavBar />
                 <div className="container">
                     <Routes>
-                        <Route path="/" element={<ComprasPage />}></Route>
-                        <Route path="/shopping" element={<CarritoPage />}></Route>
+                        <Route path="/shopping-cart/" element={<ComprasPage />}></Route>
+                        <Route path="/shopping-cart/shopping" element={<CarritoPage />}></Route>
                         <Route path="/*" element={<Navigate to={'/'} />}></Route>
                     </Routes>
                 </div>
